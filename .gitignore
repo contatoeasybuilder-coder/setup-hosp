@@ -1,0 +1,7 @@
+# Saída do build do Cloudflare Pages
+_site/
+
+# Arquivos locais do macOS e editores
+.DS_Store
+.vscode/
+.idea/

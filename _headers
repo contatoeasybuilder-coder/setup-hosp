@@ -1,0 +1,18 @@
+# HTML pode ser revalidado para refletir atualizações rapidamente
+/
+  Cache-Control: public, max-age=300, must-revalidate
+
+/:slug/
+  Cache-Control: public, max-age=300, must-revalidate
+
+/*.html
+  Cache-Control: public, max-age=300, must-revalidate
+
+# Assets podem ser atualizados mantendo o mesmo nome
+/:slug/assets/*
+  Cache-Control: public, max-age=3600, must-revalidate
+  X-Content-Type-Options: nosniff
+
+/assets/*
+  Cache-Control: public, max-age=3600, must-revalidate
+  X-Content-Type-Options: nosniff
