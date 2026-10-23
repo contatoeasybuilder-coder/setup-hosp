@@ -1,5 +1,15 @@
 # Easy Estático — setup para Cloudflare Pages
 
+## Editar com um agente
+
+- [AGENTS.md](AGENTS.md): instruções para editar páginas e seções clonadas, identificar a entrega e preservar conteúdo e interações.
+- [BRIEFING.md](BRIEFING.md): modelo de briefing; salve as respostas em `BRIEFING-PREENCHIDO.md` dentro da pasta da página.
+- [OTIMIZACAO.md](OTIMIZACAO.md): roteiro de diagnóstico, otimização e validação conforme o escopo solicitado.
+
+Documentos de trabalho não autorizam publicação. Mantenha briefings preenchidos e auditorias fora da saída pública e confira o build antes do deploy.
+
+Os três documentos foram sincronizados de `diogovieiradesigner/setup-hosp`, revisão `ab2b492610e3c2d73be150a9dee4c935b641df39`, preservando o conteúdo original.
+
 Base enxuta para publicar várias páginas estáticas no mesmo projeto Cloudflare Pages. Cada pasta de primeiro nível com um `index.html` vira uma rota pelo nome da pasta:
 
 **Comece pelo [guia completo, do login à primeira página publicada](GUIA-CLOUDFLARE-PAGES.md).**
