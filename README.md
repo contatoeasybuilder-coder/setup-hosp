@@ -48,3 +48,22 @@ O script copia cada pasta para `_site/<slug>/`, preservando os assets próprios 
 - `build.sh`: prepara o diretório publicado e conserva cada página em seu slug.
 
 Cada página é independente; links entre slugs devem usar caminhos absolutos, por exemplo `/curso-de-fotografia/`.
+
+## Agentes para criar e editar seções
+
+Os arquivos de instruções acompanham o projeto; não exigem instalar extensões.
+Abra esta pasta na sua ferramenta de IA e peça, por exemplo:
+
+- **Nova seção a partir de print:** “Leia docs/agentes/secoes-por-print/SKILL.md
+  e crie uma seção a partir deste print. Faça o microbriefing sobre o que
+  reaproveitar e a identidade visual, pesquise referências e apresente um MVP.”
+- **Ideia de animação:** “Leia ANIMACOES.md e crie um protótipo responsivo para
+  validar esta ideia antes de integrar na página.”
+
+[AGENTS.md](AGENTS.md) orienta a edição; [BRIEFING.md](BRIEFING.md) organiza os
+conteúdos; [OTIMIZACAO.md](OTIMIZACAO.md) orienta melhorias sem perder fidelidade.
+[ANIMACOES.md](ANIMACOES.md) e o
+[agente de seções por print](docs/agentes/secoes-por-print/SKILL.md) orientam os MVPs.
+A documentação inclui microbriefing, pesquisa visual e catálogo de referências.
+A presença desses arquivos não instala uma skill nem cria um comando automático.
+Valide a ideia antes de integrar; publicar exige autorização para essa ação.

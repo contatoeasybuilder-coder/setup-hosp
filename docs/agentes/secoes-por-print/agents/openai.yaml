@@ -1,0 +1,6 @@
+interface:
+  display_name: "Seções por print"
+  short_description: "Microbriefing, pesquisa visual e seções interativas"
+  default_prompt: "Use $secoes-por-print para criar uma seção a partir do print: aproveite as respostas do microbriefing, pesquise referências, compare conceitos e revise visualmente o MVP responsivo antes de entregar para aprovação."
+policy:
+  allow_implicit_invocation: true
